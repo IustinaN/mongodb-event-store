@@ -4,6 +4,7 @@
   "description": "Event store for MongoDB.",
   "license": "MIT",
   "devDependencies": {
+    "editorconfig-tools": "0.1.1",
     "husky": "0.14.3",
     "snazzy": "7.0.0",
     "standard": "10.0.3"
