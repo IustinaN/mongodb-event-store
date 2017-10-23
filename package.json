@@ -6,6 +6,7 @@
   "devDependencies": {
     "editorconfig-tools": "0.1.1",
     "husky": "0.14.3",
+    "jest": "21.2.1",
     "lint-staged": "4.3.0",
     "prettier-standard": "7.0.3",
     "snazzy": "7.0.0",
@@ -23,7 +24,9 @@
   },
   "scripts": {
     "lint": "standard --verbose | snazzy",
+    "test": "jest --coverage",
+    "ci": "jest --watch",
     "precommit": "lint-staged",
-    "prepush": "echo \"Warning: no prepush specified\" && exit 0"
+    "prepush": "jest"
   }
 }
