@@ -1,40 +1,21 @@
 # Use a .npmignore file to keep stuff out of your package
 # Read about how to use .npmignore: https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
 
-# Logs
-logs
-*.log
+# Ignore everything
+*
 
-# Runtime data
-pids
-*.pid
-*.seed
+# But not these files...
+!lib
+!lib/**
 
-# Coverage directory used by tools like istanbul or jest
-coverage
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
 
-# node-waf configuration
-.lock-wscript
+# The following paths and files are never ignored,
+# so adding them to .npmignore is pointless:
 
-# IntelliJ IDE ignore
-.idea
-
-# Visual Studio Code
-.vscode/*
-.history
-
-# OSX Files
-.DS_Store
-
-# lock files
-package-lock.json
-yarn.lock
-
-# Unnecessary stuff for package
-benchmark/
-examples/
-test/
-.istanbul.yml
-.travis.yml
-Makefile
-TODO
+# package.json
+# README (and its variants)
+# CHANGELOG (and its variants)
+# LICENSE / LICENCE
