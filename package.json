@@ -2,5 +2,12 @@
   "name": "mongodb-event-store",
   "version": "0.0.0-alpha",
   "description": "Event store for MongoDB.",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "0.14.3"
+  },
+  "scripts": {
+    "precommit": "echo \"Warning: no precommit specified\" && exit 0",
+    "prepush": "echo \"Warning: no prepush specified\" && exit 0"
+  }
 }
