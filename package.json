@@ -3,6 +3,20 @@
   "version": "0.0.0-alpha",
   "description": "Event store for MongoDB.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noTruth/mongodb-event-store.git"
+  },
+  "homepage": "https://github.com/noTruth/mongodb-event-store#readme",
+  "bugs": {
+    "url": "https://github.com/noTruth/mongodb-event-store/issues"
+  },
+  "keywords": [
+    "event-store",
+    "mongodb",
+    "events",
+    "event-sourcing"
+  ],
   "devDependencies": {
     "editorconfig-tools": "0.1.1",
     "husky": "0.14.3",
