@@ -1,0 +1,40 @@
+# Use a .npmignore file to keep stuff out of your package
+# Read about how to use .npmignore: https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul or jest
+coverage
+
+# node-waf configuration
+.lock-wscript
+
+# IntelliJ IDE ignore
+.idea
+
+# Visual Studio Code
+.vscode/*
+.history
+
+# OSX Files
+.DS_Store
+
+# lock files
+package-lock.json
+yarn.lock
+
+# Unnecessary stuff for package
+benchmark/
+examples/
+test/
+.istanbul.yml
+.travis.yml
+Makefile
+TODO
